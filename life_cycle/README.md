@@ -1,0 +1,5 @@
+# Life Cycle
+
+
+- Activity
+- Fragment
