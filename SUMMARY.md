@@ -12,7 +12,7 @@
    * [Modularization](modularization/README.md)
        * [Gradle: Build Automation](modularization/gradle.md)
        * [Publishing Gradle Android Library](modularization/publishing_gradle_android_library.md)
-   * [Dependency Injection](software_engineering/dependency_injection)
+   * [Dependency Injection](software_engineering/dependency_injection.md)
 * [Testing](testing/README.md)
 * [Applications & Libraries](applications_&_libraries/README.md)
    * [Socket.io](applications_&_libraries/socketio.md)
