@@ -1,6 +1,5 @@
 # Dependency Injection 依賴注入
 
-
 以下先從 [Dependency injection on Android: Dagger (Part 1)](http://antonioleiva.com/dependency-injection-android-dagger-part-1/) 這篇言簡意賅的文章切入：
 
 ### What is a Dependency?
@@ -63,3 +62,30 @@ public class Module1{
 * [Dependency injection on Android: Dagger (Part 1)](http://antonioleiva.com/dependency-injection-android-dagger-part-1/)
 * [Dependency Injection 筆記 (1)](http://huan-lin.blogspot.com/2011/10/dependency-injection-1.html)
 
+---
+
+## Intro
+
+- Definition
+  - Dependency injection is a software design pattern that implements inversion of control and allows a program design to follow the dependency inversion principle. The term was coined by Martin Fowler -  [Wikipedia](http://en.wikipedia.org/wiki/Dependency_injection)
+  - In charge of providing instances of the rest of modules
+
+- Why
+  - Reduction of boilerplate code
+  - It promotes reusability, testability and maintainability.
+
+## Tools
+
+- [RoboGuice](https://github.com/roboguice/roboguice): Dependency injection. Google Guice on Android, version 3.0
+  - Performance impact as it's done on runtime using reflection
+
+- [Dagger](https://github.com/square/dagger): A fast dependency injector for Android and Java.
+- [ButterKnife](https://github.com/JakeWharton/butterknife): View "injection" library for Android.
+
+## Comparison
+
+- [Difference between Dagger and ButterKnife Android](http://stackoverflow.com/questions/20821148/difference-between-dagger-and-butterknife-android)
+  - ButterKnife only for view injection
+
+- [Android's Options for Dependency Injection: Dagger, RoboGuice, and ButterKnife](http://java.dzone.com/articles/androids-options-dependency)
+  - RoboGuice is powerful yet time consuming, while Dagger & ButterKnife is fast but not so powerful

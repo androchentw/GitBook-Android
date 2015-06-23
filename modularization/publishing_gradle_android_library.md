@@ -11,7 +11,6 @@ Modularize. 製作 lib: Publishing Gradle Android Library
 
 ## jCenter
 
-
 [avast/android-styled-dialogs](https://github.com/avast/android-styled-dialogs)
 
 ### How to include
@@ -19,3 +18,8 @@ Modularize. 製作 lib: Publishing Gradle Android Library
     dependencies {
         compile 'com.avast:android-styled-dialogs:2.2.0'
     }
+
+
+* [Jcenter v.s. mavencentral()](http://stackoverflow.com/questions/24852219/android-buildscript-repositories-jcenter-vs-mavencentral)
+    - JCenter is a Java repository in Bintray, which is the largest repo in the world for Java and Android OSS libraries, packages and components.
+    - `jcenter()` is a superset of `mavenCentral()`, that encompasses many additional repositories and artifacts. 也就是說，**Bintray 包含 Maven Central**。
